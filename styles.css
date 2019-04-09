@@ -1,4 +1,111 @@
+/* General */
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #455d7a;
+    color: white;
+}
+
+/* Section 1 */
+
+.section__1 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+}
+
+/* Section 2 */
+
+.section__2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+}
+
+/* Section 3 */
+
+.section__3 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+}
+
+/* Navbar */
+
+.navbar {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    width: 70%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.navbar img {
+    align-self: center;
+    justify-self: center;
+}
+
+.navbar li {
+    font-size: 1.2rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer__grid__div {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    line-height: 1.6rem;
+    color: white;
+    width: 70%;
+    margin: auto;
+    border-top: 2px solid black;
+}
+
+.footer__grid__div img{
+    align-self: center;
+    justify-self: center;
+}
+
+.footer__grid__div h4 {
+    padding-bottom: 1rem;
+}
+
+.footer__grid__div a {
+    color: #d1d1d1;
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+.footer__grid__div a:hover {
+    color: #ffffff;
+}
+
+.footer__grid__plan__news__1 {
+    padding-bottom: 1.2rem;
 }
