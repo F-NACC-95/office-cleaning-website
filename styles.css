@@ -9,19 +9,32 @@ ul {
     list-style: none;
 }
 
-body {
-    background-color: #455d7a;
-    color: white;
+html body {
+    background-color: rgb(110, 144, 187);
 }
 
 /* Section 1 */
 
 .section__1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     padding-top: 4rem;
     padding-bottom: 4rem;
     width: 50%;
     margin: auto;
     font-size: 2rem;
+}
+
+.section__1__info {
+    width: 90%;
+}
+
+.section__1 img {
+    width: 20vw;
+    height: 30vh;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
 }
 
 /* Section 2 */
@@ -29,19 +42,38 @@ body {
 .section__2 {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    width: 50%;
+    width: 50vw;
     margin: auto;
     font-size: 2rem;
+    background-color: orange;
+}
+
+.section__2 p {
+    margin-left: 40px;
+}
+
+.section__2 button {
+    margin-left: 40px;
 }
 
 /* Section 3 */
 
 .section__3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     padding-top: 4rem;
     padding-bottom: 4rem;
     width: 50%;
     margin: auto;
     font-size: 2rem;
+}
+
+.section__3 img {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
 }
 
 /* Navbar */
@@ -59,10 +91,15 @@ body {
 .navbar img {
     align-self: center;
     justify-self: center;
+    width: 200px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .navbar li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     align-self: center;
     justify-self: center;
 }
@@ -90,6 +127,9 @@ body {
 .footer__grid__div img{
     align-self: center;
     justify-self: center;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .footer__grid__div h4 {
