@@ -18,10 +18,12 @@ html body {
 .navbar {
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr 1fr;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    border-bottom: 1vh solid #6287c1;
+    background-color: #62656b;
+    color: white;
 }
 
 .navbar img {
@@ -42,7 +44,7 @@ html body {
 
 .navbar li a {
     text-decoration: none;
-    color: #515151;
+    color: #dbdbdb;
     font-weight: bold;
 }
 
@@ -130,9 +132,10 @@ html body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     line-height: 1.6rem;
-    color: black;
-    width: 70%;
+    color: white;
+    background-color: #62656b;
     margin: auto;
+    border-top: 1vh solid #6287c1;
 }
 
 .footer__grid__div img{
@@ -148,7 +151,7 @@ html body {
 }
 
 .footer__grid__div a {
-    color: #515151;
+    color: #dbdbdb;
     text-decoration: none;
     line-height: 2rem;
 }
